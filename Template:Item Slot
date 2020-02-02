@@ -1,37 +1,6 @@
 {| style="border:1px #AAA solid;line-height:1.5em;direction:ltr;width:1%;border:1px solid #AAA !important" class="infobox" cellspacing="0" cellpadding="0" style="float:left;"
-! colspan="3" style="border-bottom:1px solid #aaa" {{!}} [[Combat|Combat Stats]]
+! colspan="3" style="border-bottom:1px solid #aaa" {{!}} Combat Stats
 {{!}}-
-{{!}} style="padding:4px" {{!}}
-{| style="display:inline-block;cursor:default;margin:-5px {{#expr:-2{{#if:{{{image}}}|-4}}}}px -10px 0"
-{{!}} colspan="3" {{!}}
-{| style="margin:0 -3px"
-! width="115" style="text-align:" {{!}} Class
-! width="69" {{!}} Slot
-{{!}}-
-{{!}} class="iCSbox" align="center" title="Item class" {{!}} {{#switch:{{lc:{{{class|}}}}}
-|melee=[[File:Attack.png|x34px|Melee|link=Melee]]{{mainonly|[[Category:Melee Gear]]}}
-|ranged=[[File:Ranged.png|x34px|Ranged|link=Ranged]]{{mainonly|[[Category:Range Gear]]}}
-|magic=[[File:Magic.png|x34px|Magic|link=Magic]]{{mainonly|[[Category:Magic Gear]]}}
-|hybrid=[[File:CombatSwords.png|x34px|Hybrid]]{{mainonly|[[Category:Hybrid Gear]]}} 
-|''Unknown <small>[{{fullurl:{{FULLPAGENAME}}|action=edit}} edit]</small>''}}
-
-{{!}} class="iCSbox" style="text-align:center;height:1% !important" {{!}} {{#switch:{{lc:{{{slot|}}}}}
-|head=[[File:Head slot.png|Head slot|link=Category:Head slot items]]{{mainonly|[[Category:Head slot items]]}}
-|ammo=[[File:Ammo slot.png|Ammunition slot|link=Category:Ammunition slot items]]{{mainonly|[[Category:Ammunition slot items]]}}
-|neck=[[File:Neck slot.png|Neck slot|link=Category:Neck slot items]]{{mainonly|[[Category:Neck slot items]]}}
-|cape=[[File:Cape slot.png|Cape slot|link=Category:Cape slot items]]{{mainonly|[[Category:Cape slot items]]}}
-|main|mainhand|main-hand|weapon=[[File:Weapon slot.png|Mainhand slot|link=Category:Weapon slot items]]{{mainonly|[[Category:Weapon slot items]]}}
-|2h=[[File:2h slot.png|Two-handed slot|link=Category:Two-handed slot items]]{{mainonly|[[Category:Weapon slot items]][[Category:Two-handed slot items]]}}
-|body=[[File:Torso slot.png|center|Body slot|link=Category:Body slot items]]{{mainonly|[[Category:Body slot items]]}}
-|off|offhand|off-hand|shield=[[File:Shield slot.png|Offhand slot|link=Category:Offhand slot items]]{{mainonly|[[Category:Offhand slot items]]}}
-|legs=[[File:Legs slot.png|Legwear slot|link=Category:Legwear slot items]]{{mainonly|[[Category:Legwear slot items]]}}
-|hands=[[File:Gloves slot.png|29px|link=Category:Hand slot items]]{{mainonly|[[Category:Hand slot items]]}}
-|feet=[[File:Boots slot.png|Feet slot|link=Category:Feet slot items]]{{mainonly|[[Category:Feet slot items]]}}
-|ring=[[File:Ring slot.png|Ring slot|link=Category:Rings]]{{mainonly|[[Category:Rings]]}}
-|set=[[File:Barrows Guthan's Set.png|Armour Set|link=Category:Sets]]{{mainonly|[[Category:Sets]]}}
-|#default=''? <small>[{{fullurl:{{FULLPAGENAME}}|action=edit}} edit]</small>''{{mainonly|}}
-}}
-|}
 {{!}}-
 ! width="62" style="text-align:left" {{!}} Bonus
 ! width="62" {{!}} Attack
@@ -73,9 +42,7 @@
 {{!}} class="iCSbox" style="text-align:center" title="Prayer Attack Bonus" {{!}} {{#if:{{{Prayboost|}}}|{{{Prayboost}}}|+0}}
 
 {{!}}-
-|-
-|<span style="margin-top:-4px; font-size:xx-small;"></span>
-|}{{Mainonly|{{#switch:{{lc:{{{slot|}}}}}|spell|none=|#default=[[Category:Equipment]]}}{{#switch:{{lc:{{{mainType|}}}}}|crushing|crush=[[Category:Crush weapons]]|slashing|slash=[[Category:Slash weapons]]|stabbing|stab=[[Category:Stab weapons]]|throwing|thrown=[[Category:Thrown weapons]]}}{{#switch:{{lc:{{{offType|}}}}}|crushing|crush=[[Category:Crush weapons]]|slashing|slash=[[Category:Slash weapons]]|stabbing|stab=[[Category:Stab weapons]]|throwing|thrown=[[Category:Thrown weapons]]}}}}
+
 [[Category:{{PAGENAME}}]]
 {{!}}-
 {{!}} class="iCSbox" {{!}} {{#switch:{{lc:{{{Aspeed}}}}}
